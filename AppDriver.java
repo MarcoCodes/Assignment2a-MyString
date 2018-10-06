@@ -24,9 +24,16 @@ public class AppDriver
       
       // MyString Constructors
       MyString firstTest = new MyString(testChar);
+      System.out.println("MyString(Char): " + copyCat.toString());
+         
       MyString secondTest = new MyString(testCharArray, sizeOfArray);
+      System.out.println("MyString(Char[], int): " + copyCat.toString());
+         
       MyString thirdTest = new MyString(testString);
+      System.out.println("MyString(String): " + copyCat.toString());
+         
       MyString copyCat = new MyString(thirdTest);
+      System.out.println("MyString(MyString): " + copyCat.toString());
       
       // Baseline for tests
       System.out.println("======================");
