@@ -1,15 +1,15 @@
 /**
- *    @author       Marco Martinez
- *    @fileName     AppDriver.java
- *    @version      1.0
- *    @description  This program will test the functionality of MyString.
- *    @date         10/1/2018
- *
- *     Program Change Log 
- * ==========================
- * Name        Date     Description
- * Marco       10/1     Create baseline for AppDriver
- * Marco       10/4     Add finishing touches to AppDriver
+      @author       Marco Martinez
+      @fileName     AppDriver.java
+      @version      1.0
+      @description  This program will test the functionality of MyString.
+      @date         10/1/2018
+  
+      Program Change Log 
+      ==================
+      Name        Date     Description
+      Marco       10/1     Create baseline for AppDriver
+      Marco       10/4     Add finishing touches to AppDriver
  */
  
 public class AppDriver
