@@ -24,13 +24,13 @@ public class AppDriver
       
       // MyString Constructors
       MyString firstTest = new MyString(testChar);
-      System.out.println("MyString(Char): " + copyCat.toString());
+      System.out.println("MyString(Char): " + firstTest.toString());
          
       MyString secondTest = new MyString(testCharArray, sizeOfArray);
-      System.out.println("MyString(Char[], int): " + copyCat.toString());
+      System.out.println("MyString(Char[], int): " + secondTest.toString());
          
       MyString thirdTest = new MyString(testString);
-      System.out.println("MyString(String): " + copyCat.toString());
+      System.out.println("MyString(String): " + thirdTest.toString());
          
       MyString copyCat = new MyString(thirdTest);
       System.out.println("MyString(MyString): " + copyCat.toString());
